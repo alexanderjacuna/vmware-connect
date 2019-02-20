@@ -1,11 +1,8 @@
 import atexit
-import argparse
-import getpass
 import ssl
 
 from pyVim import connect
 from pyVmomi import vmodl
-from pyVmomi import vim
 
 # VCENTER CONNECTION INFO
 host="vcenter-server.test.com"
